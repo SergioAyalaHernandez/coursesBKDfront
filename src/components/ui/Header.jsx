@@ -13,8 +13,8 @@ const Header = () => {
                 </Link>
                 <div className="hidden xl:flex items-center gap-8">
                     <Nav />
-                    <Link href="/contact">
-                        <Button>Siguenos</Button>
+                    <Link href="http://localhost:4200/login">
+                        <Button>Conoce nuestra plataforma</Button>
                     </Link>
                 </div>
                 <div className="xl:hidden">
