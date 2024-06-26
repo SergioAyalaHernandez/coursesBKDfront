@@ -1,90 +1,90 @@
+"use client";
+
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
+
+const info = [
+    {
+        icon: <FaPhoneAlt />,
+        title: 'Phone',
+        description: "+57 324 559 65 21"
+    },
+    {
+        icon: <FaEnvelope />,
+        title: 'Email',
+        description: "sergio.ayala9208@gmail.com"
+    },
+    {
+        icon: <FaMapMarkedAlt />,
+        title: 'Address',
+        description: "avenida falsa 123, Sprinfield"
+    },
+]
+
 const Contact = () => {
     return (
-        <div className="p-6 bg-primary-100">
-            <section className="mb-6">
-                <h2 className="text-xl font-bold text-accent">Contacto</h2>
-                <p className="mt-2 text-white-700">
-                    Numero de nequi para las inversiones
-                     <a href="mailto:contacto@nuestraeducacion.com" className="text-accent underline"> soporte@coursesBKD.com</a>
-                      o llamarnos al <span className="text-accent">+324 559 65 21</span>.
-                </p>
-            </section>
-            <section>
-            (
-        <div className="p-6 bg-primary-100">
-            <h2 className="text-xl font-bold text-accent mb-6">Detalles de Inversiones</h2>
-            <div className="overflow-x-auto">
-            <tr>
-                            <td className="px-4 py-2 border-b border-gray-200">Plan de acción a 1 año, retorno de la inversión sobre el año</td>
-                        </tr>
-                <table className="min-w-full bg-primary shadow-md rounded-lg">
-                    <thead>
-                        <tr>
-                            <th className="px-4 py-2 border-b-2 border-gray-200 bg-accent text-left">Descripción</th>
-                            <th className="px-4 py-2 border-b-2 border-gray-200 bg-accent text-left">Acciones</th>
-                            <th className="px-4 py-2 border-b-2 border-gray-200 bg-accent text-left">Valor (en millones)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td className="px-4 py-2 border-b border-gray-200">49% de acciones</td>
-                            <td className="px-4 py-2 border-b border-gray-200">1000 acciones</td>
-                            <td className="px-4 py-2 border-b border-gray-200">10 millones</td>
-                        </tr>
-                        
-                        <tr>
-                            <td className="px-4 py-2 border-b border-gray-200"> Le fragrance jonalaú</td>
-                            <td className="px-4 py-2 border-b border-gray-200">100 acciones</td>
-                            <td className="px-4 py-2 border-b border-gray-200">100 millones</td>
-                        </tr>
-                        <tr>
-                            <td className="px-4 py-2 border-b border-gray-200"> Etéreo café</td>
-                            <td className="px-4 py-2 border-b border-gray-200">160 acciones</td>
-                            <td className="px-4 py-2 border-b border-gray-200">160 millones</td>
-                        </tr>
-                        <tr>
-                            <td className="px-4 py-2 border-b border-gray-200">Compuline</td>
-                            <td className="px-4 py-2 border-b border-gray-200">150 acciones</td>
-                            <td className="px-4 py-2 border-b border-gray-200">150 millones</td>
-                        </tr>
-                        <tr>
-                            <td className="px-4 py-2 border-b border-gray-200">roubike</td>
-                            <td className="px-4 py-2 border-b border-gray-200">200 acciones</td>
-                            <td className="px-4 py-2 border-b border-gray-200">200 millones</td>
-                        </tr>
-                        <tr>
-                            <td className="px-4 py-2 border-b border-gray-200"> JEANS LRD</td>
-                            <td className="px-4 py-2 border-b border-gray-200">50 acciones</td>
-                            <td className="px-4 py-2 border-b border-gray-200">50 millones</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" } }}
+            className="py-6">
+            <div className="container mx-auto">
+                <div className="flex flex-col xl:flex-row gap-[30px] ">
+                    <div className="xl:w-[54%] order-2 xl:order-none">
+                        <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+                            <h3 className="text-4xl text-accent">Aprendamos  juntos</h3>
+                            <p className="text-white/60">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, totam? Facere ullam quas voluptate accusantium quisquam quos praesentium eum labore reiciendis amet! Illum error animi eum pariatur laboriosam fugiat explicabo!
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <Input type="firstname" placeholder="Firstname" />
+                                <Input type="lastname" placeholder="Lastname" />
+                                <Input type="email" placeholder="Email" />
+                                <Input type="phone" placeholder="Phone number" />
+                            </div>
+                            <Select>
+                                <SelectTrigger className="w-full">
+                                    <SelectValue placeholder="Select a service"></SelectValue>
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectGroup>
+                                        <SelectLabel>Select a plan</SelectLabel>
+                                        <SelectItem value="est">Basic</SelectItem>
+                                        <SelectItem value="cst">Medium</SelectItem>
+                                        <SelectItem value="mst">Expert</SelectItem>
+                                    </SelectGroup>
+                                </SelectContent>
+                            </Select>
+                            <Textarea className="h-[200px]"
+                                placeholder="Type your message here..." />
+                            <Button size="md" className="max-w-40">
+                                Send Message
+                            </Button>
+                        </form>
+                    </div>
+                    <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
+                        <ul className="flex flex-col gap-10">
+                            {info.map((item, index) => {
+                                return (
+                                    <li key={index} className="flex items-center gap-6">
+                                        <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-md flex items-center justify-center">
+                                            <div className="text-[28px]">{item.icon}</div>
+                                        </div>
+                                        <div className="flex-1">
+                                            <p className="text-white/60">{item.title}</p>
+                                            <h3 className="text-xl">{item.description}</h3>
+                                        </div>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-
-                <h2 className="text-xl font-bold text-accent">Dirección</h2>
-                <p className="mt-2 text-white-700">
-                    Nuestra oficina está ubicada en:
-                    <br />
-                    Calle3 # 19 - 09 sur
-                    <br />
-                    Bogotá, 1101101
-                    <br />
-                    Colombia
-                </p>
-            </section>
-            <section>
-                <h2 className="text-xl font-bold text-accent">Horario de Atención</h2>
-                <p className="mt-2 text-white-700">
-                    Lunes a Viernes: 9:00 AM - 6:00 PM
-                    <br />
-                    Sábado: 10:00 AM - 2:00 PM
-                    <br />
-                    Domingo: Cerrado
-                </p>
-            </section>
-        </div>
+        </motion.section>
     )
 }
 
-export default Contact
+
+export default Contact;
