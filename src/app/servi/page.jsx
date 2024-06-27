@@ -7,25 +7,25 @@ const services = [
     {
         num: "01",
         title: "Java",
-        description: "Cursos que cubren desde conceptos básicos del lenguaje, programación orientada a objetos, hasta el desarrollo de aplicaciones web con frameworks como Spring y manejo de concurrencia.",
+        description: "Courses that cover everything from basic language concepts, object-oriented programming, to the development of web applications with frameworks such as Spring and concurrency management.",
         href: "/descripcion"
     },
     {
         num: "02",
         title: "Node",
-        description: "Programas que introducen a Node.js, manejo de paquetes con npm, creación de servidores web, desarrollo de APIs RESTful y uso de frameworks como Express.",
+        description: "Programs that introduce Node.js, package management with npm, creation of web servers, development of RESTful APIs and use of frameworks such as Express.",
         href: "/sobre-nosotros"
     },
     {
         num: "03",
         title: "Python",
-        description: "Cursos que van desde la sintaxis básica y estructuras de control, hasta el desarrollo web con Django o Flask, ciencia de datos, y machine learning.",
+        description: "Courses ranging from basic syntax and control structures, to web development with Django or Flask, data science, and machine learning.",
         href: "/mision"
     },
     {
         num: "04",
         title: "C#",
-        description: "Formación en fundamentos del lenguaje, programación orientada a objetos, y desarrollo de aplicaciones de escritorio con Windows Forms o WPF, así como aplicaciones web con ASP.NET.",
+        description: "Training in language fundamentals, object-oriented programming, and development of desktop applications with Windows Forms or WPF, as well as web applications with ASP.NET.",
         href: "/vision"
     }
 ];

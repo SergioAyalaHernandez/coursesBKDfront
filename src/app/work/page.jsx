@@ -15,7 +15,7 @@ const projects = [
         num: '01',
         category: 'frontend',
         title: 'project 1',
-        Description: 'Nuestra plataforma está creada con angular, aprenderan, manejo de consumo de servicios, de guars, de interceptors',
+        Description: 'Our platform is created with Angular, you will learn, management of service consumption, guars, interceptors',
         stack: [
             {
                 name: 'ANGULAR'
@@ -35,7 +35,7 @@ const projects = [
         num: '02',
         category: 'backend',
         title: 'project 1',
-        Description: 'Aprenderan a usar el framework de spring boot para java, con el uso de maven, el uso de jpa para la conexión a base de datos',
+        Description: 'They will learn to use the spring boot framework for java, with the use of maven, the use of jpa for connecting to the database',
         stack: [
             {
                 name: 'JAVA'
@@ -55,7 +55,7 @@ const projects = [
         num: '03',
         category: 'db',
         title: 'project 1',
-        Description: 'Conoceran el manejo de sql, tablas relacionales, para construir la arquitectura de esquema de datos para sus proyectos',
+        Description: 'They will know how to use SQL, relational tables, to build the data schema architecture for their projects.',
         stack: [
             {
                 name: 'MySql'
@@ -72,7 +72,7 @@ const projects = [
         num: '04',
         category: 'github',
         title: 'project 1',
-        Description: 'Conoceran el manejo del markdown para poder personalizar su perfil de github y así mismo guardar sus repositorios',
+        Description: 'They will know how to use markdown to be able to customize their GitHub profile and also save their repositories',
         stack: [
             {
                 name: 'GITHUB'
