@@ -7,25 +7,25 @@ const services = [
     {
         num: "01",
         title: "Java",
-        description: "Descripción sobre la pagina de Cursos",
+        description: "Cursos que cubren desde conceptos básicos del lenguaje, programación orientada a objetos, hasta el desarrollo de aplicaciones web con frameworks como Spring y manejo de concurrencia.",
         href: "/descripcion"
     },
     {
         num: "02",
         title: "Node",
-        description: "Descripción sobre la pagina de Cursos",
+        description: "Programas que introducen a Node.js, manejo de paquetes con npm, creación de servidores web, desarrollo de APIs RESTful y uso de frameworks como Express.",
         href: "/sobre-nosotros"
     },
     {
         num: "03",
         title: "Python",
-        description: "Descripción sobre la pagina de Cursos",
+        description: "Cursos que van desde la sintaxis básica y estructuras de control, hasta el desarrollo web con Django o Flask, ciencia de datos, y machine learning.",
         href: "/mision"
     },
     {
         num: "04",
         title: "C#",
-        description: "Descripción sobre la pagina de Cursos",
+        description: "Formación en fundamentos del lenguaje, programación orientada a objetos, y desarrollo de aplicaciones de escritorio con Windows Forms o WPF, así como aplicaciones web con ASP.NET.",
         href: "/vision"
     }
 ];

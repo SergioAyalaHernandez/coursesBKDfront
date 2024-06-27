@@ -5,7 +5,7 @@ import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 
 const about = {
     title: "About me",
-    description: "lorem ajajajjajaja",
+    description: "We are a platform focused on teaching in the IT Area",
     info: [
         {
             fieldName: "name",
@@ -29,11 +29,11 @@ const about = {
         },
         {
             fieldName: "Email",
-            fieldValue: "info@coursesbkd.com"
+            fieldValue: "info-curso-back@coursesbkd.edu.com"
         },
         {
             fieldName: "Courses",
-            fieldValue: "Backend"
+            fieldValue: "Backend / Front-End / FullStack / DBA / Server"
         },
         {
             fieldName: "Lenguages",
@@ -45,37 +45,37 @@ const about = {
 const experience = {
     icon: '/assets/resume/badge.svg',
     title: 'CoursesBKD',
-    description: 'descripción',
+    description: 'We are a platform focused on the software development and IT learning area.',
     items: [
         {
             compant: "coursesBKD.con",
-            position: "Developers",
+            position: "Developers in POO",
+            duration: "6 Months"
+        },
+        {
+            compant: "coursesBKD.con",
+            position: "Developers in Database Connection",
             duration: "1 year"
         },
         {
             compant: "coursesBKD.con",
-            position: "Backend",
-            duration: "5 year"
+            position: "Developers in API REST FULL",
+            duration: "1 year / 6 Months"
         },
         {
             compant: "coursesBKD.con",
-            position: "Services",
-            duration: "5 year"
+            position: "Developers in Testing with API",
+            duration: "2 year"
         },
         {
             compant: "coursesBKD.con",
-            position: "Services",
-            duration: "5 year"
+            position: "Developers in Design web",
+            duration: "2 year / 6 Months"
         },
         {
             compant: "coursesBKD.con",
-            position: "Services",
-            duration: "5 year"
-        },
-        {
-            compant: "coursesBKD.con",
-            position: "Services",
-            duration: "5 year"
+            position: "Developers FullStack",
+            duration: "3 year"
         }
     ]
 };
@@ -83,7 +83,7 @@ const experience = {
 const education = {
     icon: '/assets/resume/badge.svg',
     title: 'CoursesBKD Education',
-    description: 'descripción',
+    description: 'We offer accessible education for each person interested in learning new Technologies, promoting professional careers.',
     items: [
         {
             institution: "universitaria de Colombia",
@@ -91,18 +91,18 @@ const education = {
             duration: "2024"
         },
         {
-            institution: "universitaria de Colombia",
-            degree: "Software Enginiers",
+            institution: "CUN",
+            degree: "Sistems Enginiers",
             duration: "2024"
         },
         {
-            institution: "universitaria de Colombia",
-            degree: "Software Enginiers",
+            institution: "Universidad Pontificica Javeriana",
+            degree: "Software Enginiers specialization",
             duration: "2024"
         },
         {
-            institution: "universitaria de Colombia",
-            degree: "Software Enginiers",
+            institution: "universidad Distrital",
+            degree: "Software Enginiers Magister",
             duration: "2024"
         }
     ]
