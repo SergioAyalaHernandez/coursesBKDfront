@@ -15,81 +15,78 @@ const projects = [
         num: '01',
         category: 'frontend',
         title: 'project 1',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi consequuntur odio minima optio voluptatibus veniam!',
+        Description: 'Nuestra plataforma está creada con angular, aprenderan, manejo de consumo de servicios, de guars, de interceptors',
         stack: [
             {
-                name: 'html 5'
+                name: 'ANGULAR'
             },
             {
-                name: 'Css 3'
+                name: 'TAILWIND'
             },
             {
-                name: 'Java'
+                name: 'TYPESCRIPT'
             },
         ],
         image: '/assets/work/thumb1.png',
         live: '',
-        github: "",
+        github: "https://github.com/SergioAyalaHernandez/evaluation-angular-platform",
     },
     {
         num: '02',
         category: 'backend',
         title: 'project 1',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi consequuntur odio minima optio voluptatibus veniam!',
+        Description: 'Aprenderan a usar el framework de spring boot para java, con el uso de maven, el uso de jpa para la conexión a base de datos',
         stack: [
             {
-                name: 'html 5'
+                name: 'JAVA'
             },
             {
-                name: 'Css 3'
+                name: 'SPRING BOOT'
             },
             {
-                name: 'Java'
+                name: 'JPA'
             },
         ],
-        image: '/assets/work/thumb1.png',
+        image: '/assets/work/thumb2.png',
         live: '',
-        github: "",
+        github: "https://github.com/SergioAyalaHernandez/back-SEJAVA-PLATFORM",
     },
     {
         num: '03',
         category: 'db',
         title: 'project 1',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi consequuntur odio minima optio voluptatibus veniam!',
+        Description: 'Conoceran el manejo de sql, tablas relacionales, para construir la arquitectura de esquema de datos para sus proyectos',
         stack: [
             {
-                name: 'html 5'
+                name: 'MySql'
             },
             {
-                name: 'Css 3'
-            },
-            {
-                name: 'Java'
-            },
+                name: 'RELATION DB'
+            }
         ],
-        image: '/assets/work/thumb1.png',
+        image: '/assets/work/thumb3.png',
         live: '',
-        github: "",
+        github: "https://github.com/SergioAyalaHernandez/back-SEJAVA-PLATFORM",
     },
     {
         num: '04',
         category: 'github',
         title: 'project 1',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi consequuntur odio minima optio voluptatibus veniam!',
+        Description: 'Conoceran el manejo del markdown para poder personalizar su perfil de github y así mismo guardar sus repositorios',
         stack: [
             {
-                name: 'html 5'
+                name: 'GITHUB'
             },
             {
-                name: 'Css 3'
+                name: 'MARKDWON'
             },
             {
-                name: 'Java'
+                name: 'PROJECTS'
             },
         ],
-        image: '/assets/work/thumb1.png',
+        image: '/assets/work/thumb4.png',
         live: '',
-        github: "",
+        github: "https://github.com/SergioAyalaHernandez",
     }
 ]
 
