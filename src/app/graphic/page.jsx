@@ -104,7 +104,7 @@ const LinesChart = () => {
         >
           <div>
             <div className="flex flex-col gap-6 p-5 bg-[#27272c] rounded-xl">
-              <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+              <div className="text-5xl font-extrabold text-outline text-primary group-hover:text-outline-hover transition-all duration-500">
                 Usuarios Nuevos  
               </div>
             </div>
@@ -114,7 +114,7 @@ const LinesChart = () => {
           </div>
           <div>
             <div className="flex flex-col gap-6 p-5 bg-[#27272c] rounded-xl">
-              <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+              <div className="text-5xl font-extrabold text-outline text-primary hover:text-accent transition-all duration-500">
                 Clases Nuevas  
               </div>
             </div>
@@ -124,7 +124,7 @@ const LinesChart = () => {
           </div>
           <div>
             <div className="flex flex-col gap-6 p-5 bg-[#27272c] rounded-xl">
-              <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+              <div className="text-5xl font-extrabold text-outline text-primary group-hover:text-accent transition-all duration-500">
                 Ventas 
               </div>
             </div>
@@ -134,7 +134,7 @@ const LinesChart = () => {
           </div>
           <div>
             <div className="flex flex-col gap-6 p-5 bg-[#27272c] rounded-xl">
-              <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
+              <div className="text-5xl font-extrabold text-outline text-primary group-hover:text-accent transition-all duration-500">
                 Profesores Nuevos  
               </div>
             </div>

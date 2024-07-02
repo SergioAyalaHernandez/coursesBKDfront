@@ -27,6 +27,10 @@ const links = [
     {
         name : 'Graficas',
         path : '/graphic'
+    },
+    {
+        name : '%Clases',
+        path : '/pie'
     }
 
 ];
