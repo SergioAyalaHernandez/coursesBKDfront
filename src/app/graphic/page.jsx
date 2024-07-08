@@ -119,7 +119,7 @@ const LinesChart = () => {
               </div>
             </div>
             <div className="relative w-full h-96">
-              <Line data={miData3} options={options} />
+              <Line data={miData2} options={options} />
             </div>
           </div>
           <div>
@@ -129,7 +129,7 @@ const LinesChart = () => {
               </div>
             </div>
             <div className="relative w-full h-96">
-              <Line data={miData2} options={options} />
+              <Line data={miData3} options={options} />
             </div>
           </div>
           <div>
